@@ -21,8 +21,8 @@ public class Orange_hrm_login {
 		pass.clear();
 		Thread.sleep(1000);
 		pass.sendKeys("admin123");
-		WebElement login=driver.findElement(By.xpath("//input[@name='Submit']"));
-		login.click();
+//		WebElement login=driver.findElement(By.xpath("//input[@name='Submit']"));
+//		login.click();
 		
 	}
 
